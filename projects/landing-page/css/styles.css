@@ -10,6 +10,10 @@
 
 
 /* ---- Base Rules ---- */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: rgb(136,203,171);
     background: linear-gradient(0deg, rgba(136,203,171,1) 0%, rgba(0,13,60,1) 100%);
@@ -64,14 +68,39 @@ section {
 /* ---- Module Rules ---- */
 
 /* Navigation Styles*/
+.navbar__menu .nav-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-icon-container:hover{
+    background: #333;
+}
+
+#nav-icon {
+    width: 28px;
+    padding: 12px;
+}
+
+.nav-icon-container:hover > img#nav-icon{
+    width: 32px;
+    padding: 10px;
+}
+
 .navbar__menu ul {
     padding-left: 0;
     margin: 0;
-    text-align: right;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
 }
 
 .navbar__menu li {
     display: inline-block;
+
 }
 
 .navbar__menu .menu__link {
