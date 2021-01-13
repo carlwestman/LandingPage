@@ -4,8 +4,6 @@
 
 [1.0 Project Description](#description)
 [2.0 Implementation](#implementation)
-[1. Project Description](#description)
-[2. Implementation](#implementation)
 [2.1 Data Driven Content](#data-driven-content)
 [2.2 Section Active State](#section-active-state)
 [2.3 Navigation Bar](#navigation-bar)
