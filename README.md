@@ -2,8 +2,8 @@
 
 ## Table of Contents
 
-[1. Project Description](#description)
-[2. Implementation](#implementation)
+[1.0 Project Description](#description)
+[2.0 Implementation](#implementation)
 [2.1 Data Driven Content](#data-driven-content)
 [2.2 Section Active State](#section-active-state)
 [2.3 Navigation Bar](#navigation-bar)
@@ -26,10 +26,10 @@ Sections are highlighted with an active state when the vertical midpoint of the 
 
 Each sections vertical midpoint position is calculated upon scroll events and compared to the chosen point in order to determine which element should be active. When the determined element is not equal to the currently active element the active class is removed from the current element and added to the determinded target element.
 
-This may not scale well since scroll events are fired on every scroll and quite a few calculations are performed on each event. With only for sections it was not a problem but it will likely become an issue when the number of sections grows. 
+This may not scale well since scroll events are fired on every scroll and quite a few calculations are performed on each event. With only for sections it was not a problem but it will likely become an issue when the number of sections grows.
 
 ### 2.3 Navigation Bar
-There is a event listener on the navigation bar that triggers a toggle function when the navigation bar is clicked. The event adds or removes a hidden class to the UL element. 
+There is a event listener on the navigation bar that triggers a toggle function when the navigation bar is clicked. The event adds or removes a hidden class to the UL element.
 
 There is also a hover state on the navbar that is similar to that of the list items in order to make it conform with the UX. however there is also a hover state on the icon making it grow and take a few extra pixels space in the navigation bar. A very simple bu tdelightful little UX detail.
 
