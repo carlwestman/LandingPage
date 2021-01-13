@@ -1,13 +1,14 @@
 # Landing Page Project
 
 ## Table of Contents
-
-[1.0 Project Description](#description)
-[2.0 Implementation](#implementation)
-[2.1 Data Driven Content](#data-driven-content)
-[2.2 Section Active State](#section-active-state)
-[2.3 Navigation Bar](#navigation-bar)
-[2.4 Navigation Scrolling](#navigation-scrolling)
+| nr  | Section                                        |
+| --- |:-----------------------------------------------|
+| 1.0 | [Project Description](#description)            |
+| 2.0 | [Implementation](#implementation)              |
+| 2.1 | [Data Driven Content](#data-driven-content)    |
+| 2.2 | [Section Active State](#section-active-state)  |
+| 2.3 | [Navigation Bar](#navigation-bar)              |
+| 2.4 | [Navigation Scrolling](#navigation-scrolling)  |
 
 
 ## 1.0 Project Description
