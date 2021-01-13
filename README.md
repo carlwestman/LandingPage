@@ -2,12 +2,23 @@
 
 ## Table of Contents
 
+<<<<<<< HEAD
 [1.0 Project Description](#description)
 [2.0 Implementation](#implementation)
+=======
+[1. Project Description](#description)
+
+[2. Implementation](#implementation)
+
+>>>>>>> 641432e063f839ca523cca11d3ae8da3e8d43d47
 [2.1 Data Driven Content](#data-driven-content)
+
 [2.2 Section Active State](#section-active-state)
+
 [2.3 Navigation Bar](#navigation-bar)
+
 [2.4 Navigation Scrolling](#navigation-scrolling)
+
 
 ## 1.0 Project Description
 
